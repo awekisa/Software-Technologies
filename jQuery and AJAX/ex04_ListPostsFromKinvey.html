@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List the Posts from Kinvey</title>
+    <script src="jQuery/jquery-3.0.0.js"></script>
+    <style>
+        .civ {
+            background: #DDD;
+            padding: 10px;
+        }
+
+        .strenght {
+            background: #DDF;
+            padding: 10px;
+            margin-left: 15px;
+        }
+
+        .bestVictory {
+            background: #DFF;
+            padding: 20px;
+            margin-left: 30px
+        }
+    </style>
+
+</head>
+<body>
+<button onclick="callKinvey()">List Civs</button>
+<script>
+    function callKinvey() {
+        $.ajax({
+            method: "GET",
+            url: "https://baas.kinvey.com/appdata/kid_ByheErFS/civs",
+            headers: {
+                'Authorization': 'Basic ' + btoa("1:1")
+            },
+            success: function (data) {
+                showCivs(data)
+            },
+            error: function (data) {
+                $('body').append(JSON.stringify(data));
+            }
+        });
+    }
+
+    function showCivs(civs) {
+        for (let civ of civs) {
+            $('body').append($('<div class="civ">').text(civ.civ))
+            $('body').append($('<div class="strenght">').text(civ.strenght))
+            $('body').append($('<div class="bestVictory">').text(civ.bestVictoryType))
+        }
+    }
+</script>
+<br>
+Civ: <input type="text" id="newCiv"/>
+Strenght: <input type="text" id="str"/>
+Best Victory Type: <input type="text" id="bestVictoryType"/>
+<button onclick="enterCiv()">New Civ</button>
+<script>
+    function enterCiv() {
+        $.ajax({
+            method: "POST",
+            url: "https://baas.kinvey.com/appdata/kid_ByheErFS/civs",
+            headers: {
+                'Authorization': 'Basic ' + btoa("1:1")
+            },
+            data: {
+                civ: $('#newCiv').val(),
+                strenght: $('#str').val(),
+                bestVictoryType: $('#bestVictoryType').val()
+            },
+            success: function () {
+                callKinvey()
+            },
+            error: function (data) {
+                $('body').append(JSON.stringify(data));
+            }
+        });
+    }
+</script>
+</body>
+</html>
