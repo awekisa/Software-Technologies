@@ -22,8 +22,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ex07_KeyMultiValues.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex07_KeyMultiValues.php">
+      <file leaf-file-name="ex07-key-multi-values.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex07-key-multi-values.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
               <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
@@ -32,8 +32,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex08_StoringObjects.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex08_StoringObjects.php">
+      <file leaf-file-name="ex08-storing-objects.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex08-storing-objects.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="880">
               <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
@@ -47,8 +47,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex09_ObjectToJSONString.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex09_ObjectToJSONString.php">
+      <file leaf-file-name="ex09-object-to-json-string.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex09-object-to-json-string.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
@@ -57,8 +57,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex10_Dates.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex10_Dates.php">
+      <file leaf-file-name="ex10-dates.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex10-dates.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
               <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
@@ -140,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,9 +149,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Basics Excersises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Basics Excersises" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -164,10 +174,10 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Coding\Node JS\node.exe" />
   </component>
   <component name="RunManager" selected="PHP Script.fgfg.php">
-    <configuration default="false" name="ex04_ArrayIndexes.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ex04_ArrayIndexes.php">
+    <configuration default="false" name="ex04-array-indexes.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ex04-array-indexes.php">
       <method />
     </configuration>
-    <configuration default="false" name="ex08_StoringObjects.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ex08_StoringObjects.php">
+    <configuration default="false" name="ex08-storing-objects.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ex08-storing-objects.php">
       <method />
     </configuration>
     <configuration default="false" name="fgfg.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/fgfg.php">
@@ -211,15 +221,15 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Debug" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.ex04_ArrayIndexes.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.ex08_StoringObjects.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.ex04-array-indexes.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.ex08-storing-objects.php" />
       <item index="3" class="java.lang.String" itemvalue="PHP Script.fgfg.php" />
     </list>
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="PHP Script.fgfg.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.ex08_StoringObjects.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.ex04_ArrayIndexes.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.ex08-storing-objects.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.ex04-array-indexes.php" />
       </list>
     </recent_temporary>
   </component>
@@ -239,11 +249,12 @@
       <workItem from="1467626740432" duration="13177000" />
       <workItem from="1467657214468" duration="13058000" />
       <workItem from="1467699204539" duration="5702000" />
+      <workItem from="1467706088740" duration="1117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31937000" />
+    <option name="totallyTimeSpent" value="33054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -251,7 +262,6 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -260,6 +270,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -284,7 +295,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/ex10_Dates.php</url>
+          <url>file://$PROJECT_DIR$/ex10-dates.php</url>
           <line>2</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -294,7 +305,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex07_KeyMultiValues.php">
+    <entry file="file://$PROJECT_DIR$/ex07-key-multi-values.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
@@ -302,7 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex08_StoringObjects.php">
+    <entry file="file://$PROJECT_DIR$/ex08-storing-objects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
@@ -315,7 +326,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex09_ObjectToJSONString.php">
+    <entry file="file://$PROJECT_DIR$/ex09-object-to-json-string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10-dates.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -323,14 +342,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fgfg.php">
+    <entry file="file://$USER_HOME$/Downloads/10. Dates_HTML Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ex07-key-multi-values.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08-storing-objects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <marker date="1467666667143" expanded="true" signature="748:965" ph="..." />
+            <marker date="1467666667143" expanded="true" signature="770:831" ph="..." />
+            <marker date="1467666667143" expanded="true" signature="835:894" ph="..." />
+            <marker date="1467666667143" expanded="true" signature="898:960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex09-object-to-json-string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fgfg.php" />
     <entry file="file://$USER_HOME$/Downloads/01. Reverse Numbers_HTML Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -345,7 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex01_ReverseNumbers.php">
+    <entry file="file://$PROJECT_DIR$/ex01-reverse-numbers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
@@ -360,21 +409,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex02_PrintLines.php">
+    <entry file="file://$PROJECT_DIR$/ex02-print-lines.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="25" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex03_CustomDelimiter.php">
+    <entry file="file://$PROJECT_DIR$/ex03-custom-delimiter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <marker date="1467628456803" expanded="true" signature="400:442" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,11 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex04_ArrayIndexes.php">
+    <entry file="file://$PROJECT_DIR$/ex04-array-indexes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,23 +458,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex05_AddRemoveElements.php">
+    <entry file="file://$PROJECT_DIR$/ex05-add-remove-elements.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex06_KeyValuePairs.php">
+    <entry file="file://$PROJECT_DIR$/ex06-key-value-pairs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="20" column="28" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex07_KeyMultiValues.php">
+    <entry file="file://$PROJECT_DIR$/ex07-key-multi-values.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
@@ -452,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex08_StoringObjects.php">
+    <entry file="file://$PROJECT_DIR$/ex08-storing-objects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
@@ -465,15 +507,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fgfg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex09_ObjectToJSONString.php">
+    <entry file="file://$PROJECT_DIR$/fgfg.php" />
+    <entry file="file://$PROJECT_DIR$/ex09-object-to-json-string.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
@@ -489,7 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex10_Dates.php">
+    <entry file="file://$PROJECT_DIR$/ex10-dates.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
