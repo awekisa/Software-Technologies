@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogDbApp
 {
-    class Program
+    class EntityFramework
     {
         static void Main(string[] args)
         {
