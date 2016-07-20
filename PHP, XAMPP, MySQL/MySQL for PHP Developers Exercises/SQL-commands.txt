@@ -1,0 +1,62 @@
+****************************** SELECT *************************
+// 01. select users
+
+SELECT * FROM users
+
+
+// 02. SELECT posts
+
+SELECT * FROM posts
+
+// 03. select only title and content
+
+SELECT title, content FROM posts
+
+// 04. order by fullname
+
+SELECT username, fullname FROM users ORDER BY username ASC
+
+// 05. descending order 
+
+SELECT username, fullname FROM users ORDER BY fullname DESC, username DESC
+
+// 06. select only posters
+
+SELECT * FROM users WHERE id IN (SELECT author_id FROM posts)
+
+// 07. select users with posts
+
+SELECT users.username, posts.title FROM users JOIN posts ON users.id = posts.author_id
+
+// 08. select given author by post id
+
+SELECT username, fullname FROM users WHERE id IN (SELECT author_id FROM posts WHERE id = 4)
+
+SELECT username, fullname FROM users WHERE id IN (SELECT author_id FROM posts) ORDER BY id DESC
+
+****************************** INSERT *************************
+
+// 09. insert post
+
+INSERT INTO blogex.posts (author_id, title, content, date) VALUES (2, 'RANDOM TITLE', 'RANDOM CONTent', STR_TO_DATE('2016-07-06', '%Y-%m-$d'))
+
+****************************** UPDATE *************************
+
+// 10. update content
+
+UPDATE blogex.posts SET title = 'CHANGE OF TITLE'  WHERE id = 7;
+
+****************************** DELETE *************************
+
+// delete content
+
+DELETE FROM blogex.posts WHERE id = 8
+
+**************************** DROP TABLE *********************
+
+// drop tables
+
+DROP TABLE posts
+
+
+DROP TABLE users
